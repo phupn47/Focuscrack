@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-purple: #AD88C6;
+  --color-pink: #E1AFD1;
+  --color-lightpink: #FFE6E6;
+  --color-yellow: #FFFECE;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
