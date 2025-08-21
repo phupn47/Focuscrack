@@ -8,14 +8,12 @@ import Reset from './components/Reset'
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/timer" element={<Timer />} />
-        <Route path="/gotcha" element={<Gotcha />} />
-        <Route path="/collection" element={<Collection />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/timer" element={<Timer />} />
+      <Route path="/gotcha" element={<Gotcha />} />
+      <Route path="/collection" element={<Collection />} />
+    </Routes>
   )
 }
 
