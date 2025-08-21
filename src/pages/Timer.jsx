@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { assets, eggs } from '../assets/assets'
+import { eggs } from '../assets/assets'
 import { Pause, Play, X } from 'lucide-react'
 import { useLocation, useNavigate } from 'react-router-dom'
 
@@ -12,7 +12,6 @@ const Timer = () => {
     const totalSeconds = (minutes * 60) + seconds;
     const [timeLeft, setTimeLeft] = useState(totalSeconds);
     const [isCount, setIsCount] = useState(true);
-    const [isFinish, setIsFinish] = useState(false);
 
     useEffect(() => {
 

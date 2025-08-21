@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { assets, monsters } from '../assets/assets'
+import { monsters } from '../assets/assets'
 import { X } from 'lucide-react'
 
 const Gotcha = () => {
